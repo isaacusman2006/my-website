@@ -1,9 +1,9 @@
 alert("Hello welcome to isaac usman website");
 
 function signin(){
-    alert("sign in button clicked")
+    alert("welcome! you have successfully signed in.")
 
 }
 function signout(){
-    alert("sign out buttonclickd");
+    alert("you have signed out. see you next time")
 }
