@@ -5,6 +5,22 @@
     <meta name ="viewport"content"width =device =width,initial_scale =1.0">
     <title> Codedev home page</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      .social-bar {
+  text-align: center;
+  margin-top: 20px;
+}
+.social-bar a {
+  margin: 0 10px;
+  display: inline-block;
+}
+.social-bar a img {
+  transition: transform 0.3s;
+}
+.social-bar a img:hover {
+  transform: scale(1.2);
+}  
+    </style>
 </head>
 <body>
     <header> 
@@ -13,17 +29,29 @@
         <p class="sub -title "> my project </p>
         <p class="bio">A little basic webpage basedon css mini project</p>
     </header>
-    </section class="hero"> 
+    <section class="hero"> 
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Help</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Service">#Service</a></li>
+            <li><a href="#Help">Help</a></li>
         </ul>
+        <section id="Home">
+            <h2>Home section</h2>
+        </section>
+        <section id ="About">
+            <h2>About section</h2>
+        </section>
+        <section id ="#Service">
+            <h2>#Service section</h2>
+        </section>
+        <section id ="Help">
+            <h2>Help section</h2>
+        </section>
         <div class ="btn">
-            <button onclick="signin()">sign in</button>
-            <button onclick="signin()">sign out</button>
+            <button onclick="signIn()">sign in</button>
+            <button onclick="signout()">sign out</button>
         </div>
     </nav>
     <div class="content">
@@ -33,14 +61,30 @@
             <p> And explore the world of web development together.....</p>
     </div>
     <aside>
-        <h1>writing my project</h1>
-        <ul>
-            <li><a href="#"><i class=bx bxs-contact'></i>content</a></li>
-            <li><a href="#"><i class=bx bx-bell'></i>inotification</a></li>
-            <li><a href="#"><i class=bx bx1-tiktok'></i>tiktok</a></li>
-            <li><a href="#"><i class=bx bx1-intagram'></i>intagram</a></li>
-            <li><a href="#"><i class=bx bx1- facebook'></i>facebook</a></li>
-        </ul>
+        <h1>come to my website</h1>
+       <footer>
+        <p>follow me:</p>
+        <div class="social-bar">
+        <a 
+        href="https://www.tiktok.com/@isaac.usman8"
+                target="-blank">
+            <img src="tiktok-icon.png"
+            alt="tiktok" width="30">
+        </a>
+        <a
+         href="https://www.intagram.com/usmanisaac12"
+                target="-blank">
+            <img src="intagram-icon.png"
+            alt="intagram" width="30">
+        </a>
+         <a
+          href="https://www.facebook.com/issac monet"
+                target="-blank">
+                <img src="facebook-icon.png"
+            alt="facebook" width="30">
+        </a> 
+        <div>      
+       </footer>
     </aside>
         </section>
         <script src="script.js"></script>
