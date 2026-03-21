@@ -1,24 +1,24 @@
 {
     margin:0;
     padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,
+    box-sizing :border-box;
+    font-family :Arial,Helvetica,
     sans-serif;
 }
 body{
-    background:#0f172a;
-    color:white;
+    background:#1a0f2a;
+    color:rgb(255, 255, 255);
 }
 header{
     text-align: center;
     padding:20px;
-    background:#1e293b;
+    background:#251e3b;
 }
 h1{
     font-size:35px;
 }
 sup-title{
-    color:#38bdf8;
+    color:#c538f8;
     font-size:18px;
 
 }
